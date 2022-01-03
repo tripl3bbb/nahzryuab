@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+}
+  body{
+    font-family: 'Chakra Petch', sans-serif;
+
+  }
+/* nav */
+.nav{
+ background: #ff0000;
+}
+.nav_header{
+  text-align: center;
+  padding: 4px 16px;
+  padding: 0.25rem 1rem;
+  border-bottom: 8px solid #ff0000;
+  border-bottom: 0.5rem solid #ff0000;
+
+}
+.logo{
+  color:white;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* end of nav */
+
+.about{
+ padding: 32px 0;
+ padding: 2rem 0;
+ background: #fff;
+}
+.about__center{
+ max-width: 90vw;
+ margin: 32px auto;
+ margin: 2rem auto;
+}
+.about-img{
+ margin: 48px 0;
+ margin: 3rem 0;
+ position: relative;
+}
+.about-img__photo{
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+.about-img__catalogue{
+ display: block;
+ width: 100%;
+ height: 80%;
+ position: relative;
+}
+.about-info{
+ margin: 48px 0;
+ margin: 3rem 0;
+}
+.about-info__title{
+ font-size: 48px;
+ font-size: 3rem;
+ text-transform: capitalize;
+ letter-spacing: 8px;
+ letter-spacing: 0.5rem;
+ color:#121d3e;
+}
+.about-info__text{
+ color: #899495;
+ line-height: 1.5;
+ font-size: 19.2px;
+ font-size: 1.2rem;
+ margin: 48px 0;
+ margin: 3rem 0;
+}
+.about-info__single-link{
+ display: inline-block;
+ text-decoration: none;
+ padding: 8px 16px;
+ padding: 0.5rem 1rem;
+ font-size: 24px;
+ font-size: 1.5rem;
+ letter-spacing: 3.2px;
+ letter-spacing: 0.2rem;
+ text-transform: capitalize;
+ border: 3px solid #181b24;
+ -webkit-transition: all 1s linear;
+ transition: all 1s linear;
+ margin-right: 16px;
+ margin-right: 1rem;
+}
+
+.dark-btn{
+ background: #181b24;
+ color: #fff
+}
+.dark-btn:hover{
+ background: #fff;
+ color: #121d3e;
+}
+.light-btn{
+ color: #181b24;
+}
+.light-btn:hover{
+ background: #181b24;
+ color: #fff
+}
+@media screen and (min-width:992px){
+.about__center{
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+         justify-content: space-between;
+}
+.about-info,.about-img{
+ -webkit-box-flex: 0;
+     -ms-flex: 0 0 calc(50% - 1rem);
+         flex: 0 0 calc(50% - 1rem)
+}
+.about-info{
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: end;
+     -ms-flex-align: end;
+         align-items: flex-end;
+}
+}
+/* end about section */
+
+/* section title */
+.section-title{
+ text-align: center
+}
+.section-title__name{
+ font-size: 64px;
+ font-size: 4rem;
+ letter-spacing: 8px;
+ letter-spacing: 0.5rem;
+ text-transform: capitalize;
+ font-weight: 700;
+ color:#121d3e;
+}
+/* end of section title */
+
+
+/* games section */
+
+.games{
+  background: #f2f2f2;
+  padding: 48px 0;
+  padding: 3rem 0;
+ }
+.games__center{
+ max-width: 90vw;
+ margin: 32px auto;
+ margin: 2rem auto;
+}
+.games__single-game{
+ margin: 32px auto;
+ margin: 2rem auto;
+ text-align: center;
+ -webkit-transition: all 0.5s ease-in;
+ transition: all 0.5s ease-in;
+ padding: 32px 0;
+ padding: 2rem 0;
+
+}
+.games__single-game:hover{
+ background: #fff;
+ -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, .1);
+         box-shadow: 0 15px 20px rgba(0, 0, 0, .1);
+}
+.games__single-game-icon{
+ font-size: 48px;
+ font-size: 3rem;
+}
+.games__single-game-title{
+ text-transform: uppercase;
+ font-weight: 700;
+ margin-top: 16px;
+ margin-top: 1rem;
+ margin-bottom: 16px;
+ margin-bottom: 1rem;
+ letter-spacing: 3.2px;
+ letter-spacing: 0.2rem;
+ color: #121d3e;
+}
+.games__single-game-text{
+ width: 80%;
+ margin: 0 auto;
+ text-align: left;
+ line-height: 1.5;
+ letter-spacing: 3.2px;
+ letter-spacing: 0.2rem;
+ color: #899495;
+}
+
+
+@media screen and (min-width:768px){
+ .games__center{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+ }
+.games__single-game{
+ -webkit-box-flex:0;
+     -ms-flex:0 0 calc(50% - 0.5rem);
+         flex:0 0 calc(50% - 0.5rem);
+}
+
+}
+
+@media screen and (min-width:992px){
+.games__single-game{
+ -webkit-box-flex:0;
+     -ms-flex:0 0 calc(33.3333% - 0.25rem);
+         flex:0 0 calc(33.3333% - 0.25rem);
+}
+
+}
+
+/* end of games section */
+
+
+
+/* footer */
+
+.footer{
+  background: #ff0000;
+  padding: 48px 0;
+  padding: 3rem 0;
+}
+.footer__icons{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer__single-icon{
+  font-size: 32px;
+  font-size: 2rem;
+  color: #fff;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.footer__single-icon:hover{
+  color: #899495
+}
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

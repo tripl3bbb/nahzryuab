@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>GAME SHOP</title>
+ <link rel="icon" type="icon" href="icon.ico">
+ <link rel="stylesheet" href="style.css">
+ <script src="all.js"></script>
+</head>
+
+<body>
+ <header class="header">
+  <nav class="nav">
+   <div class="nav_header">
+    <a href="index.html" class="logo">Hello Gamer </a>
+   </div>
+  </nav>
+ </header>
+
+ <section class="about" id="aboutme">
+  <div class="about__center">
+   <article class="about-img">
+    <img src="main.png" alt="" class="about-img__photo">
+   </article>
+   <article class="about-info">
+    <div class="about-info__container">
+     <h1 class="about-info__title">Game Shop</h1>
+     <p class="about-info__text"> Looking for interesting games for a good price? Game shop #1 Game store! We give you games for a low price than other shops all over the world.</p>
+
+
+     <div class="about-info__links">
+      <a href="https://t.me/nahzryuab" class="about-info__single-link dark-btn">Contact Us</a>
+      <a href="https://instagram.com/game_shop112233" target="_blank" class="about-info__single-link light-btn">See our works</a>
+     </div>
+
+    </div>
+   </article>
+
+  </div>
+ </section>
+
+ <section class="games" id="games">
+  <div class="section-title">
+   <h1 class="section-title__name">Catalogue</h1>
+  </div>
+  <div class="games__center">
+   <article class="games__single-game">
+   <img src="cs.png" alt="" class="about-img__catalogue">
+    <h2 class="games__single-game-title">Decorative Santa Claus</h2>
+    <p class="games__single-game-text">
+        Can be used as decoration for your Christmas Tree.
+    </p>
+
+	
+   </article>
+   <article class="games__single-game">
+   <img src="gta.png" alt="" class="about-img__catalogue">
+    <h2 class="games__single-game-title">Christmas Decoration</h2>
+    <p class="games__single-game-text">
+        Little house with trees and warm white lights.
+    </p>
+
+   </article>
+   <article class="games__single-game">
+      <img src="hitman.jpg" alt="" class="about-img__catalogue">
+    <h2 class="games__single-game-title">Toys for Christmas tree</h2>
+    <p class="games__single-game-text">
+        Will make you house look precious, and add a bit of Christmas atmosphere.
+    </p>
+
+   </article>
+    </div>
+   <div class="games__center">
+   <article class="games__single-game">
+   <img src="farcry.jpg" alt="" class="about-img__catalogue">
+    <h2 class="games__single-game-title">Garland</h2>
+    <p class="games__single-game-text">
+        Trim your tree or mantle with this stunning garland! It features velvet and metallic red ball ornaments. Perfect for practically any home decor!
+    </p>
+
+   </article>
+   <article class="games__single-game">
+   <img src="mr.jpg" alt="" class="about-img__catalogue">
+    <h2 class="games__single-game-title">Protective Case</h2>
+    <p class="games__single-game-text">
+        If Santa's already taking care of tracking down a new pair of AirPods for them, then go the personal route with this customized protective case.
+    </p>
+
+   </article>
+   <article class="games__single-game">
+   <img src="battle.png" alt="" class="about-img__catalogue">
+    <h2 class="games__single-game-title">Snowman</h2>
+    <p class="games__single-game-text">
+        Necessary Chritsmas item in your home.
+    </p>
+
+   </article>
+  </div>
+
+ </section>
+  </div>
+ </section>
+
+ <footer class="footer">
+  <div class="footer__icons">
+   <a href="#" class="footer__single-icon">
+    <i class="fab fa-facebook"></i>
+   </a>
+   <a href="#" class="footer__single-icon">
+    <i class="fab fa-twitter"></i>
+   </a>
+   <a href="#" class="footer__single-icon">
+    <i class="fab fa-instagram"></i>
+   </a>
+   <a href="#" class="footer__single-icon">
+    <i class="fab fa-linkedin"></i>
+   </a>
+  </div>
+ </footer>
+</body>
+
+</html>
